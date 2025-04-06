@@ -5,7 +5,7 @@ import pandas as pd
 
 class api_extracter:
 
-    def __init__(self,api_key):
+    def __init__(self):
         self.api_key = st.secrets["API_KEY"]
 
     def get_data(self):
@@ -14,7 +14,7 @@ class api_extracter:
         querystring = {"limit":"20","topMeterTitlesType":"ALL"}
 
         headers = {
-            "x-rapidapi-key": api_key,
+            "x-rapidapi-key": self.api_key,
             "x-rapidapi-host": "imdb232.p.rapidapi.com"
         }
 
