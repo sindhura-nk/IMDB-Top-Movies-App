@@ -23,3 +23,9 @@ Welcome to IMDB Top Movies Application. This web application is built with strea
   * Language: Python
   * Data Source: IMDb Top Movies (via API)
   * Libraries Used: pandas, streamlit
+
+## 👩‍💻 Author
+#### Sindhura Nadendla
+Data Analyst | Data Science Trainer
+
+📧 nk.sindhura@gmail.com
