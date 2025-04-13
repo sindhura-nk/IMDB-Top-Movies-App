@@ -3,7 +3,7 @@
 Welcome to IMDB Top Movies Application. This web application is built with streamlit that allows user to explore and search through the top rated movies and actors from IMDB.
 
 ## 🚀 Live Demo
-👉 [Click here to try the app]([https://imdb-top-movies-app-by-sindhura.streamlit.app/]) 
+👉 [Click here to try the app]([(https://imdb-top-movies-app-by-sindhura.streamlit.app/)]) 
 
 ## 📌 Features
 ### 📈 Top IMDb Listings in One Place
