@@ -19,7 +19,7 @@ Welcome to IMDB Top Movies Application. This web application is built with strea
 Built with Streamlit to ensure quick interactions and a clutter-free experience.
 
 ## 🛠️ Tech Stack
-Frontend & App Framework: Streamlit
-Language: Python
-Data Source: IMDb Top Movies (via API)
-Libraries Used: pandas, streamlit
+  Frontend & App Framework: Streamlit
+  Language: Python
+  Data Source: IMDb Top Movies (via API)
+  Libraries Used: pandas, streamlit
