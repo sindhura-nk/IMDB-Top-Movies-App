@@ -12,13 +12,15 @@ client = api_extracter()
 st.title("IMDB Movies Web application")
 st.subheader("BY Sindhura Nadendla")
 
-# create a button to display popular movies
-button = st.button("Display the most latest popular movies")
-button2 = st.button("Display the video trailer links for top movies")
-button3 = st.button("Display Famous Actors")
+st.text("Welcome to this page. If you want to know latest information about movies and actors, you are at the right space. ")
+
+
+# create a dropdown to display different options
+options_info = ["20 Most Popular Movies","Top 25 Actors","20 Latest Video Trailers"]
+option = st.selectbox("What would you like to know ?",options=options_info,index=None,placeholder="Select your input")
 
 # After clicking the button, list of movies should get displayed
-if button:
+if option == "20 Most Popular Movies":
     data = client.get_data()
     df = pd.DataFrame(data,columns=["Movie Name","Release Year","Rank"])
     st.dataframe(df)
@@ -27,13 +29,13 @@ if button:
     # DOwnload button for user
     st.download_button(label="Download data as csv",data=csv_data,file_name="IMDB movies.csv",mime="text/csv")
 
-if button2:
+if option == "20 Latest Video Trailers":
     titles,urls = client.get_coming_soon()
     df = pd.DataFrame([titles,urls]).T
     df.columns = ["Movie Name","Video Trailer Link"]
     st.dataframe(df)
 
-if button3:
+if option == "Top 25 Actors":
     names,ranks = client.get_top_actors()
     df = pd.DataFrame([names,ranks]).T
     df.columns = ["Actor's Name","Current Rank"]
