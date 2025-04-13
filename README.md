@@ -6,17 +6,17 @@ Welcome to IMDB Top Movies Application. This web application is built with strea
 👉 [Click here to try the app](https://imdb-top-movies-app-by-sindhura.streamlit.app/) 
 
 ## 📌 Features
-### 📈 Top IMDb Listings in One Place
-  Easily explore a curated list of IMDb's top-rated movies all in a clean and accessible interface.
+* ### 📈 Top IMDb Listings in One Place
+    Easily explore a curated list of IMDb's top-rated movies all in a clean and accessible interface.
   
-### 🖼️ Movie Trailers
-  Enhance your browsing experience with movie trailer links fetched and displayed for each title.
+* ### 🖼️ Movie Trailers
+    Enhance your browsing experience with movie trailer links fetched and displayed for each title.
 
-### 🎭 Actor's Information
-  Get insights about the top performing actors based on IMDB ranking. 
+* ### 🎭 Actor's Information
+    Get insights about the top performing actors based on IMDB ranking. 
 
-### ⚡ Fast and User-Friendly UI
-Built with Streamlit to ensure quick interactions and a clutter-free experience.
+* ### ⚡ Fast and User-Friendly UI
+  Built with Streamlit to ensure quick interactions and a clutter-free experience.
 
 ## 🛠️ Tech Stack
   * Frontend & App Framework: Streamlit
