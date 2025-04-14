@@ -31,9 +31,9 @@ if option == "20 Most Popular Movies":
 
 if option == "20 Latest Video Trailers":
     titles,urls = client.get_coming_soon()
-    df = pd.DataFrame([titles,urls]).T
-    df.columns = ["Movie Name","Video Trailer Link"]
-    st.dataframe(df)
+
+    for title,url in zip(titles,urls):
+        st.markdown(f" - [{title}]({url})",unsafe_allow_html=True)
 
 if option == "Top 25 Actors":
     names,ranks = client.get_top_actors()
