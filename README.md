@@ -26,6 +26,4 @@ Welcome to IMDB Top Movies Application. This web application is built with strea
 
 ## 👩‍💻 Author
 #### Sindhura Nadendla
-Data Analyst | Data Science Trainer
-
 📧 nk.sindhura@gmail.com
